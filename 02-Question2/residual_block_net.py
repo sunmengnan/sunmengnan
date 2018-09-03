@@ -5,10 +5,10 @@ from layers import *
 
 class ResidualBlockNet(object):
     """
-    A three-layer fully-connected neural network with a residual block. 
+    A two-layer fully-connected neural network with a residual block.
     The net has an input dimension of N, a hidden layer dimension of H, 
     a hidden2 layer dimension of H2, and performs classification over C classes.
-    We train the network with a softmax loss function and L2 regularization on the
+    The network is trained with a softmax loss function and L2 regularization on the
     weight matrices. The network uses a ReLU nonlinearity after the first and second
     fully connected layer.
     The outputs of the second fully-connected layer are the scores for each class.
